@@ -14,4 +14,8 @@ public class AgendaTfno {
     public String getTfno(String nombre) {
         return (String) agenda.get(nombre);
     }
+
+    public boolean contieneNombre(String nombre){
+        return this.agenda.containsKey(nombre);
+    }
 }
